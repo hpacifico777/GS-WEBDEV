@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Início</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/src/css/style.css">
+        <link rel="stylesheet" href="/src/css/contato.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" href="/src/assets/logo_fundo.PNG" sizes="32x16" type="image/png">
+        <title>Smart Energy | Contato</title>
+    </head>
 <body>
+    <header>
+        <div class="header-container">
+            <div class="botoes-cor">
+                <button id="branco"></button>
+                <button id="verde"></button>
+                <button id="rosa"></button>
+                <button id="ciano"></button>
+            </div>
+            <div class="sections left">
+                <a href="index.html">Home</a>
+                <a href="/login.html">Login</a>
+                <a href="/solucao.html">Solução</a>
+            </div>
+            
+                        <a href="index.html"><img src="/src/assets/logo_fundo.png" alt="logo sustenergy" class="logo"></a>
+                        
+            <div class="sections right">
+                <a href="/quiz.html">Quiz</a>
+                <a href="/contato.html">Contato</a>
+                <a href="/sobre.html">Sobre</a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+        <div class="contato-box">
+
+            <form id="contatoForm">
+                
+                <h1>Contato</h1>
+                
+                <div class="input-box">
+                    <input type="text" id="nome" placeholder="Nome">
+                    <i class='bx bx-user'></i>
+                    <div class="error-message" id="nameError"></div>
+                </div>
+                
+                <div class="input-box">
+                    <input type="email" id="email" placeholder="E-mail">
+                    <i class='bx bx-envelope'></i>
+                    <div class="error-message" id="emailError"></div>
+                </div>
+
+                <div class="input-box">
+                    <input type="tel" id="numero" placeholder="Telefone">
+                    <i class='bx bx-phone' ></i>
+                    <div class="error-message" id="telefoneError"></div>
+                </div>
+            
+            <button type="submit" class="submit-contato">Enviar</button>
+            
+        </form>
+    </main>
     
+    <script src="/src/js/script.js"></script>
+    <script src="/src/js/contato.js"></script>
 </body>
 </html>
