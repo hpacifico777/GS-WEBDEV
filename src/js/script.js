@@ -7,7 +7,7 @@ window.onload = function() {
     }
 };
 const buttonVerde = document.getElementById('verde');
-const buttonRosa = document.getElementById('rosa');
+const buttonAmarelo = document.getElementById('amarelo');
 const buttonCiano = document.getElementById('ciano');
 const buttonBranco = document.getElementById('branco')
 function mudarCor(cor) {
@@ -15,7 +15,7 @@ function mudarCor(cor) {
 }
 buttonBranco.addEventListener('click', () => mudarCor('#fff'))
 buttonVerde.addEventListener('click', () => mudarCor('#8cd66e'));
-buttonRosa.addEventListener('click', () => mudarCor('#fa34e0'));
+buttonAmarelo.addEventListener('click', () => mudarCor('#faed34'));
 buttonCiano.addEventListener('click', () => mudarCor('#23c4cf'));
 let imagens = [
     "/src/assets/imagem1.png",

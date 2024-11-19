@@ -11,7 +11,6 @@ main{
     min-height: 100vh;
     background-size: cover;
     background-position: center;
-    background-color: #8cd66e;
 }
 
 .contato-box{
@@ -77,6 +76,7 @@ main{
     color: #000;
     font-weight: 550;
     background-color: white;
+
 }
 
 .error-message {
