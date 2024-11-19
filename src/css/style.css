@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    transition: background-color 0.5s ease;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 160px;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(223, 223, 223);
+    padding: 0 50px;
+}
+
+.logo {
+    height: 90px;
+}
+
+.sections {
+    display: flex;
+    gap: 20px;
+}
+
+.sections.left {
+    justify-content: flex-start;
+}
+
+.sections.right {
+    justify-content: flex-end;
+}
+
+.sections a {
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sections a:hover {
+    text-decoration: underline;
+    text-decoration-color: #8cd66e;
+    text-decoration-thickness: 3px;
+}
+
+.botoes-cor {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 70px;
+    left: 370px;
+}
+
+.botoes-cor button {
+    height: 20px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.botoes-cor #branco {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #fff;
+}
+
+.botoes-cor #verde {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #8cd66e;
+}
+
+.botoes-cor #rosa {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #fa34e0;
+}
+
+.botoes-cor #ciano {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #23c4cf;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.image-container {
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+.texto-main {
+    width: 700px;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+
+.sobre {
+    display: block;
+}
+
+#image {
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.info-box {
+    width: 100%;
+    height: 575px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-left img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+.image-right img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+.text-right {
+    width: 700px;
+    margin-left: 100px;
+}
+
+.text-left {
+    width: 700px;
+    margin-right: 100px;
+}
+
+.text-right p {
+    text-align: center;
+}
+
+.text-right h1 {
+    text-align: center;
+}
+
+.main-solucao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introducao p {
+    text-align: center;
+}
+
+.introducao h1 {
+    text-align: center;
+}
+
+.introducao {
+    width: 800px;
+    margin-top: 70px;
+}
+
+.ultimo-texto {
+    margin-bottom: 50px;
+}
