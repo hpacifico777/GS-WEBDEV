@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
+    <link rel="stylesheet" href="/src/css/style.css"/>
+    <link rel="stylesheet" href="/src/css/quiz.css">
+    <link rel="icon" href="/src/assets/logo_fundo.png" sizes="32x16" type="image/png">
+    <title> Quiz </title>
 </head>
 <body>
-    
+    <header>
+        <div class="header-container">
+            <div class="botoes-cor">
+                <button id="branco"></button>
+                <button id="verde"></button>
+                <button id="amarelo"></button>
+                <button id="ciano"></button>
+            </div>
+            <div class="sections left">
+                <a href="index.html">Home</a>
+                <a href="/login.html">Login</a>
+                <a href="/solucao.html">Solução</a>
+            </div>
+            
+                        <a href="index.html"><img src="/src/assets/logo_fundo.png" alt="logo sustenergy" class="logo"></a>
+                        
+            <div class="sections right">
+                <a href="/quiz.html">Quiz</a>
+                <a href="/contato.html">Contato</a>
+                <a href="/sobre.html">Sobre</a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+        
+        <div class="app">
+            <h1>Quiz</h1>
+            <h2>Energia sustentável</h2>
+
+            <div class="quiz">
+
+                <h3 id="pergunta"> pergunta aqui</h3>
+
+                <div id="respostaBotao">
+                    <button class="btn">Resposta1</button>
+                    <button class="btn">Resposta2</button>
+                    <button class="btn">Resposta3</button>
+                    <button class="btn">Resposta4</button>
+                </div>
+
+                <button id="next-btn"> Próxima Pergunta</button>
+
+            </div>
+
+        </div>
+    </main>
+
+    <script src="src/js/script.js"></script>
+    <script src="/src/js/quiz.js"></script>
 </body>
 </html>
