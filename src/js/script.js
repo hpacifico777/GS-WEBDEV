@@ -18,10 +18,10 @@ buttonVerde.addEventListener('click', () => mudarCor('#8cd66e'));
 buttonAmarelo.addEventListener('click', () => mudarCor('#faed34'));
 buttonCiano.addEventListener('click', () => mudarCor('#23c4cf'));
 let imagens = [
-    "/src/assets/imagem1.png",
-    "/src/assets/imagem2.png",
-    "/src/assets/imagem3.png",
-    "/src/assets/imagem4.png",
+    "src/assets/imagem1.png",
+    "src/assets/imagem2.png",
+    "src/assets/imagem3.png",
+    "src/assets/imagem4.png",
 ];
 let i = 0;
 let time = 3000;
